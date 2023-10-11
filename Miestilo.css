@@ -1,0 +1,39 @@
+title{
+  font-size: x-small;
+}
+.container{
+    background-color: rgb(209, 209, 213);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    margin: 20px;
+    padding: 20px;
+  display: flex;
+  min-height: 100vh;
+}
+
+.left_container {
+  text-align: center;
+  padding: 5px;
+  background-color: rgb(81, 81, 207);
+  color: aliceblue;
+}
+
+.right_container {
+  background-color: #fff;
+  padding: 20px;
+  display: grid;
+  flex-direction: column;
+}
+
+h1, h2 {
+  color: #fff;
+}
+
+ul {
+  list-style-type: square;
+}
+.profile-image {
+  max-width: 30%;
+  border: 2px solid;
+  border-radius: 50%;
+}
+  
